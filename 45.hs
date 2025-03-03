@@ -1,0 +1,1 @@
+remdupl xs = foldr (\y ys -> y:filter (/= y) ys) [] xs

@@ -1,0 +1,1 @@
+last1 xs = head (reverse xs)
